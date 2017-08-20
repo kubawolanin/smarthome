@@ -1,10 +1,23 @@
 <md-dialog aria-label="Link Channel"> <md-dialog-content class="md-dialog-content" ng-init="form={}">
 <h1>Link channel</h1>
 <p>Please select the item to link:</p>
-	<md-input-container class="col-xs-12 noPadding"> <label>Item</label> <md-select name="itemName" md-on-close="checkCreateOption()" required="true" ng-model="itemName"> <md-option ng-repeat="item in itemsList" ng-value="item.name"> <span ng-class="{italic:$first}">
-		{{$first?'+ Create new item...':item.label}}
-		<span class="md-caption" style="color: grey;">{{!$first?'('+item.name+')':'' }}</span>
-	</span> </md-option> </md-select> </md-input-container>
+	<md-input-container class="col-xs-12 noPadding" ng-model="itemName">
+		<label>Item</label> 
+		<md-autocomplete
+			name="itemName"
+			md-on-close="checkCreateOption()"
+			required="true"
+			md-items="item in itemsList"
+			ng-item-text="item.name"
+			>
+			<md-item-template>
+				<span ng-class="{italic:$first}">
+				{{$first?'+ Create new item...':item.label}}
+					<span class="md-caption" style="color: grey;">{{!$first?'('+item.name+')':'' }}</span>
+				</span>
+			</md-item-template>
+		</md-autocomplete>
+	</md-input-container>
 	<div class="row" ng-if="itemFormVisible">
 		<div ng-include="'partials/item.config.html'"></div>
 	</div>
