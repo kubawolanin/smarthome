@@ -1,6 +1,6 @@
 /**
  * Eclipse Smarthome BasicUI javascript
- *
+ * 
  * @author Vlad Ivanov — initial version
  */
 
@@ -1642,6 +1642,10 @@
 					location.href = location.origin + "/basicui/app?sitemap=" + smarthome.UI.sitemap;
 				}
 			});
+
+			document.querySelector(o.sitemapsButton).addEventListener("click", function() {
+				location.href = location.origin + "/basicui/app";
+			});
 		})();
 	}
 
@@ -2032,6 +2036,7 @@
 	layoutTitle: ".mdl-layout-title",
 	layoutHeader: ".mdl-layout__header",
 	backButton: ".navigation__button-back",
+	sitemapsButton: ".navigation__button-sitemaps",
 	rollerblind: {
 		up: ".mdl-form__rollerblind--up",
 		down: ".mdl-form__rollerblind--down",
