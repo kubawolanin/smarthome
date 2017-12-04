@@ -17,6 +17,7 @@
 
   <modules>
     <module>org.eclipse.smarthome.ui.iconset.classic</module>
+    <module>org.eclipse.smarthome.ui.iconset.material</module>
   </modules>
 
 </project>
