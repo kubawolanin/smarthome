@@ -3,6 +3,17 @@
 # Map Material Design Icons into Eclipse SmartHome Icon Set
 #
 
+
+# cp: cannot stat ‘x.svg’: No such file or directory
+# cp: cannot stat ‘lock-unlocked.svg’: No such file or directory
+# cp: cannot stat ‘x.svg’: No such file or directory
+# cp: cannot stat ‘x.svg’: No such file or directory
+# cp: cannot stat ‘toggle-switch.svg   ’: No such file or directory
+# cp: cannot stat ‘toggle-switch.svg   ’: No such file or directory
+# cp: cannot stat ‘x.svg’: No such file or directory
+# cp: cannot stat ‘toggle-switch.svg   ’: No such file or directory
+# cp: cannot stat ‘toggle-switch.svg   ’: No such file or directory
+
 cp -f alarm-light.svg                       ../alarm.svg                       
 cp -f stairs.svg                            ../attic.svg                       
 cp -f baby.svg                              ../baby_1.svg                      
@@ -111,7 +122,7 @@ cp -f trending-up.svg                       ../line-incline.svg
 cp -f trending-neutral.svg                  ../line-stagnation.svg             
 cp -f chart-line.svg                        ../line.svg                        
 cp -f lock.svg                              ../lock-closed.svg                 
-cp -f lock-unlocked.svg                     ../lock-open.svg                   
+cp -f lock-opwn.svg                         ../lock-open.svg                   
 cp -f lock.svg                              ../lock.svg                        
 cp -f human-male.svg                        ../man_1.svg                       
 cp -f human-male.svg                        ../man_2.svg                       
@@ -221,8 +232,8 @@ cp -f weather-partlycloudy.svg              ../sun_clouds.svg
 cp -f weather-sunset-up.svg                 ../sunrise.svg                     
 cp -f weather-sunset-down.svg               ../sunset.svg                      
 cp -f toggle-switch-off.svg                 ../switch-off.svg                  
-cp -f toggle-switch-on.svg                  ../switch-on.svg                   
-cp -f toggle-switch-on.svg                  ../switch.svg                      
+cp -f toggle-switch.svg                     ../switch-on.svg                   
+cp -f toggle-switch.svg                     ../switch.svg                      
 cp -f television.svg                        ../television-off.svg              
 cp -f television.svg                        ../television-on.svg               
 cp -f television.svg                        ../television.svg                  
@@ -235,8 +246,8 @@ cp -f x.svg                                 ../toilet.svg
 cp -f beach.svg                             ../vacation.svg                    
 cp -f video.svg                             ../video.svg                       
 cp -f toggle-switch-off.svg                 ../wallswitch-off.svg              
-cp -f toggle-switch-on.svg                  ../wallswitch-on.svg               
-cp -f toggle-switch-on.svg                  ../wallswitch.svg                  
+cp -f toggle-switch.svg                     ../wallswitch-on.svg               
+cp -f toggle-switch.svg                     ../wallswitch.svg                  
 cp -f tshirt-crew.svg                       ../wardrobe.svg                    
 cp -f washing-machine.svg                   ../washingmachine.svg              
 cp -f washing-machine.svg                   ../washingmachine_2-0.svg          

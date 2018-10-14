@@ -1,17 +1,5 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64">
-  <defs>
-    <linearGradient id="0" gradientUnits="userSpaceOnUse" x1="54.364" y1="9.636" x2="9.636" y2="54.364">
-      <stop style="stop-color:#f8f5e5"/>
-      <stop offset="1" style="stop-color:#cac7b9"/>
-    </linearGradient>
-    <linearGradient id="1" gradientUnits="userSpaceOnUse" y1="15" x2="0" y2="49">
-      <stop style="stop-color:#4e493f"/>
-      <stop offset=".7677" style="stop-color:#3b3732"/>
-    </linearGradient>
-    <linearGradient id="2" gradientUnits="userSpaceOnUse" x1="49.7525" y1="42.0381" x2="14.7475" y2="21.8279" xlink:href="#0"/>
-  </defs>
-  <path d="m48 57h-32c-4.97 0-9-4.03-9-9v-32c0-4.97 4.03-9 9-9h32c4.97 0 9 4.03 9 9v32c0 4.97-4.03 9-9 9z" style="fill:url(#0);stroke-miterlimit:10;stroke:#7c715e;stroke-width:.25"/>
-  <path d="m44 49h-24c-2.76 0-5-2.24-5-5v-24c0-2.76 2.24-5 5-5h24c2.76 0 5 2.24 5 5v24c0 2.76-2.24 5-5 5" style="fill:url(#1)"/>
-  <path d="m44 47h-24c-2.76 0-5-2.24-5-5l1-21c0-2.76 2.24-5 5-5h22c2.76 0 5 2.24 5 5l1 21c0 2.76-2.24 5-5 5z" style="fill:url(#2);stroke-miterlimit:10;stroke:#7c715e;stroke-width:.25"/>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="24" height="24" viewBox="0 0 24.00 24.00" enable-background="new 0 0 24.00 24.00" xml:space="preserve">
+	<path fill="#000000" fill-opacity="1" stroke-linejoin="round" d="M 6.99992,7.00008C 9.76143,7.00008 11.9999,9.23861 11.9999,12.0001C 11.9999,14.7615 9.76135,17.0001 6.99992,17.0001C 4.23848,17.0001 1.99992,14.7615 1.99992,12.0001C 1.99992,9.23861 4.2384,7.00008 6.99992,7.00008 Z M 20,14.0002L 14,14.0002L 14,10.0002L 20,10.0002C 21.1046,10.0002 21.9999,10.8956 21.9999,12.0002C 21.9999,13.1047 21.1045,14.0002 20,14.0002 Z M 7,9C 5.34315,9 4,10.3431 4,12C 4,13.6569 5.34314,15 7,15C 8.65685,15 10,13.6569 10,12C 10,10.3431 8.65685,9 7,9 Z "/>
 </svg>
